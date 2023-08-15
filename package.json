@@ -9,9 +9,9 @@
     "clean": "rimraf dist",
     "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.test.ts\"",
     "lint": "eslint \"src/**/*.ts\" \"tests/**/*.test.ts\" --fix",
-    "build": "yarn run clean && tsc && tsc-alias",
+    "build": "yarn run clean && tsc -p tsconfig.build.json && tsc-alias",
     "prepare": "husky install",
-    "test": "tsc && jest"
+    "test": "jest"
   },
   "dependencies": {},
   "devDependencies": {
