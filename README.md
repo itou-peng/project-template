@@ -6,3 +6,4 @@ The typescript project template.
 - eslint
 - husky
 - tsc-alias
+- jest
