@@ -12,5 +12,8 @@
     "baseUrl": "./src",
     "incremental": true,
     "skipLibCheck": true
-  }
+  },
+  "exclude": [
+    "tests"
+  ]
 }
