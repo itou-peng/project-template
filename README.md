@@ -1,9 +1,5 @@
 # project-template
 
-The typescript project template.
+The monorepo project template by nx.
 
-- prettier
-- eslint
-- husky
-- tsc-alias
-- jest
+1. [Package Mono Repo Tutorial](https://nx.dev/getting-started/tutorials/package-based-repo-tutorial)
