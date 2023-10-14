@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@project-template/is-even": ["packages/is-even/src/index.ts"],
+      "@project-template/is-odd": ["packages/is-odd/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

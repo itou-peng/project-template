@@ -1,9 +1,10 @@
 {
-  "name": "is-even",
-  "version": "0.0.0",
-  "main": "dist/index.js",
-  "devDependencies": {},
-  "scripts": {
-    "build": "tsc index.ts --outDir dist"
-  }
+  "name": "@project-template/is-even",
+  "version": "0.0.1",
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts"
 }
