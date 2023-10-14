@@ -1,16 +1,15 @@
 {
-  "name": "project-template",
+  "name": "@project-template/source",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {},
   "private": true,
+  "dependencies": {},
   "devDependencies": {
     "@nx/js": "16.10.0",
+    "@nx/workspace": "16.10.0",
     "nx": "16.10.0",
-    "nx-cloud": "latest",
-    "typescript": "^5.2.2"
-  },
-  "workspaces": [
-    "packages/*"
-  ]
+    "prettier": "^2.6.2",
+    "typescript": "~5.1.3"
+  }
 }
